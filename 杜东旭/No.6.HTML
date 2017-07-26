@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>No.6子元素选择器与属性选择器</title>
+	<style type="text/css">
+		div > p {
+			color: yellow;
+		}
+		/*儿子与孙子  的区分*/
+		h1[id] {color: red;}
+		h1[id][class] {background-color: silver;font-size: 17px;}
+		input  { background-color:purple;}
+		属性选择器  上例子中只选择h1标签中的id标签
+		* {margin:0;padding: 0;} 
+	</style>
+</head>
+<body>
+<h1>中国篮球出线了吗？？</h1>
+<h1 id="ddx" class="xdd">中国篮球终于出线啦！！</h1>
+<div>
+	<p>I am a good boy</p>
+	<p>You are a good girl</p>
+	<p><a href="http://www.baidu.com">百度网站</a></p>
+	<ul>
+		<li>
+			<p>我是li标签下的p标签</p>
+		</li>
+	</ul>
+</div>	
+<input type="text">
+</body>
+</html>

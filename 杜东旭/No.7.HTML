@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>传智播客伪类与伪元素</title>
+	<style type="text/css">
+		a:link{
+			color:red;
+		}
+		a:visited{
+			color:yellow;
+		}
+		a:hover{
+			background: silver;
+			color:white;
+		}
+		a:active{
+			color: yellow;
+		}
+		.ddx:focus{
+			background: green;
+		}
+		.ddx {background-color: red;}
+		a:focus{
+			font-size: 20px;
+		}
+		.love:first-line {
+			/*首行设置*/
+			color: red;
+		}
+		.love:first-letter {
+			/*首字设置*/
+			font-size: 50px;
+		}
+		span:first-child {
+			color: yellow;
+		}
+		.wrap:before, .wrap:after {
+			content: "--------";
+			/*before 和  after是行内元素*/
+			display: block;
+			/*让伪元素转化为块级元素*/
+		}
+	</style>
+</head>
+<body>
+     <a href="http://www.baidu.com">百度官网</a>
+     <a href="http://www.sina.com.cn">新浪官网</a>
+     <a href="http://www.jd.com">京东官网</a>
+     <input class="ddx">
+     <p class="love">原标题：外媒关注解放军西藏实弹演习：全员全装整旅出动
+参考消息网7月19日报道 外媒称，中国媒体日前播放了一段解放军在西藏高原地区进行军事演习的视频。
+据英国广播公司网站7月18日报道，西藏军区某旅全员全装机动至海拔5000米青藏高原就兵力快速投送、信息化装备应用、多兵种联合攻击等要素展开实兵实弹演练。
+电视画面显示，中国军方动用了大炮及火箭炮进行射击等多种实弹演练。
+中国媒体报道称，中印边境有大量地区是高原山地地形，因此印度陆军非常重视山地部队的建设，目前不算正在组建的第17山地打击军的情况下，印军共有10个山地师、1个独立山地旅和3个后备山地旅。其中有8个山地师分布在中印边界。其中三个山地师部署在中印边境锡金段。
+与印度山地部队的步兵配备相比，中国媒体报道称，解放军具备一定优势，一是火箭筒多，二是大口径机枪多。因此“在旅属炮兵的火力上还是优势很明显的。口径大，威力大，自行化和自动化程度高”。</p>
+<div>
+	<span>我是第一个帅哥</span>
+	<span>我是第二个帅哥</span>
+	<span>我是第三个帅哥</span>
+</div>
+<p>
+	<span>aaaaaaaaaa</span>
+	<span>bbbbbbbbbb</span>
+</p>
+<div>
+	<hr>
+</div>
+<div class="wrap">
+	我是div
+</div>
+<div>
+	<hr>
+</div>
+</body>
+</html>

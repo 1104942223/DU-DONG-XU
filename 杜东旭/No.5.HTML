@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>No.5符合选择器及后代选择器及并级选择器</title>
+	<style type="text/css">
+		h3.title-msg{
+			color: red;
+		}
+		/*首先找到所有的 .box 类对应的标签，然后找到 标签的所有后代li标签*/
+		.box li {
+			color: green;
+		}
+		h1, h2 ,p {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+
+<h1>我要一夜暴富</h1>
+<h2>那是不可能的</h2>
+<p>你要回归真实的生活</p>
+<ul>
+	<li>人民辛福安康</li>
+</ul>
+
+<div class="box">
+	<ul> 
+		<li>北京</li>
+		<li>上海</li>
+		<li>广州</li>
+	</ul>
+	<ul>
+		<li>美丽的神话</li>
+		<li>肖申克的救赎</li>
+		<li>速度与激情8</li>
+	</ul>
+</div>
+
+<div>
+	<ul>
+		<li>武汉</li>
+		<li>郑州</li>
+		<li>滨州</li>
+	</ul>
+</div>
+<h3 class="title-msg">我家住在山东滨州</h3>
+<h3>www.baidu.com</h3>
+<p class="title-msg">我是一个段落标签</p>
+</body>
+</html>
