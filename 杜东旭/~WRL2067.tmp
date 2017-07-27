@@ -21,17 +21,3 @@ em{font-style=nomal:/*将字体设置为不倾斜*/
 13.优先级：：1.行内样式 2.id选择器 3.类选择器 4.标签选择器 
 最低的是通配符选择器和继承样式
 14.颜色：red black white purple green yellow silver gray teal blue navy……
-15.行标签 ：： 《strong》《b》《em》《i》《del》《s》《ins》《u》《a》《span》span标签最典型
-块级标签：：《h1》~《h6》《p》《div》《ul》《ol》《li》
-16.display 的 block可以将行内标签转换为块级标签’
-Display 的 inline 可以将块级标签转化为行内标签。。
-None 可以将 标签删除。。
-Visibility :hidden {不显示} 和  display ：none
-17.    			宽高       边距                 独占行
-	行内元素： no         左右边距				不独占
-	块级元素：yes         上下左右				独占
-	行内块元素 yes        左右					不独占
-行内元素不能设置宽高只能通过他的内容来撑开他的宽度和高度。如果你设置了宽高是不会影响行内元素的显示的。。。
-18.XX-small  x-small small  medium large x-large xx-large smaller larger尽量不去用
-19.font-family  设置字体    用escape函数来设置  如：微软雅黑对应%u5FAE%u8F6F%u96C5%u9ED1 
-20.衬线体：

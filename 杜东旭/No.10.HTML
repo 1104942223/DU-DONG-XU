@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>颜色表示  css单位和 文字排版</title>
+	<style type="text/css">
+		.demo {
+			height: 300px;
+			width: 300px;
+			/*background-color: rgb(100,100,100);*/
+			/*background-color: rgb(0,0,0);/*纯黑色*/
+			/*background-color: rgb(255,255,255);/*纯白色*/
+			/*background-color: rgb(3,100,199);/*蓝色*/
+			background-color: rgb(25%,100%,14%);/*黄*/
+			display: inline;
+			/*16进制的表示方发*/
+			/*background-color: #0399B2;*/
+			/*只是写法的转换*/
+		}
+		strong	{
+			display: block;
+			background-color: yellow;
+		}		
+		span {
+			display: none;
+		}
+		.ddx {
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+<!-- 块级标签 -->
+<div class="demo">
+	我是一个div
+</div>
+<!-- 行标签 -->
+<span>I am span</span>
+<strong>I am strong</strong>
+<s>I am s</s>
+<div class="ddx">
+	我是一个行内块标签
+</div>
+</body>
+</html>
