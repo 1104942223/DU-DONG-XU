@@ -35,3 +35,11 @@ Visibility :hidden {不显示} 和  display ：none
 18.XX-small  x-small small  medium large x-large xx-large smaller larger尽量不去用
 19.font-family  设置字体    用escape函数来设置  如：微软雅黑对应%u5FAE%u8F6F%u96C5%u9ED1 
 20.衬线体：
+ 非衬线体：sans-serif 
+21.字体的加粗：：font-weight：normal，bold，（粗），bolder（更粗），lighter（更细）
+22.字体的风格：：normal，italic，（斜体），oblique（浏览器会让文字倾斜显示）
+23.字间距：letter-spacing：10px；单词之间距离：：word-spacing：20px；
+24.text-decoration 文本装饰 –none 没有装饰  -underline  下划线   -overline   上划线  line-through  下划线
+25.text-align  :水平对齐   text-indent：首行缩进（一定是块级标签）
+Word-break   自动换行   normal使用浏览器  默认的换行规则  （不打断单词）
+Break- all （把一个单词放到两行去  ） keepall（只遇到  半角空格和字符时换行  ----所有单词都不换行）

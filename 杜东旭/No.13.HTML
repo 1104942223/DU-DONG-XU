@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>行高练习和文本装饰 </title>
+	<style type="text/css">
+		* {
+			padding: 0;
+			margin:0;
+		}
+		.demo {
+			/*font:oblique 700 40px "黑体";*/
+			/*background-color: silver;*/
+			/*height: 100px;*/
+			/*line-height: 100px;*/
+			text-align: center;
+			background-color: silver;
+			font:20px/100px "黑体";
+
+		}
+		.ddx  p{
+			background-color: red;
+			font:20px/1.5em "微软雅黑"; 
+			text-decoration: underline;
+			/*行高为30px*/  
+			/*如果是1.5——>150%*/
+
+		}
+		div {
+			text-decoration: line-through;
+		}
+		a {
+			text-decoration: none;
+		}
+		#ddz {
+			text-decoration: overline;
+		}
+	</style>
+</head>
+<body>
+<p class="demo">
+	2016级软件工程
+</p>
+<div class="ddx">
+	<div>2017年拉塞尔。威斯布鲁克获得MVp</div>
+	<p>
+		保罗。乔治加盟雷霆队
+	</p>
+	恭喜雷霆队
+</div>
+<a href="http://www.baidu.com">百度</a>
+<span id="ddz">顶线顶线</span>
+</body>
+</html>
