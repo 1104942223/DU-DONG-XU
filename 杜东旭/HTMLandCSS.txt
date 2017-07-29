@@ -43,3 +43,14 @@ Visibility :hidden {不显示} 和  display ：none
 25.text-align  :水平对齐   text-indent：首行缩进（一定是块级标签）
 Word-break   自动换行   normal使用浏览器  默认的换行规则  （不打断单词）
 Break- all （把一个单词放到两行去  ） keepall（只遇到  半角空格和字符时换行  ----所有单词都不换行）
+26.盒模型：：边距（border）外边距 （margin）  内边距 （padding）  
+Dotted 点线  solid 实线 double 双线
+/*边框也可以和font一样合写*/
+Bord-left(top  bottem ):   宽度    样式     颜色
+一行css   border ：10 px   dotted  blue  (上下左右所有的)主要使用
+Border：0 none  最好的写法
+27．Transparent  透明色
+上   右   下  左
+Padding ： 20px 5 px   10px  5px
+内边距是享有背景色
+28.行内元素：不要设置   上下padding   可设置左右边距
