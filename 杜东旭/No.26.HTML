@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>清除浮动案例隔墙发26</title>
+	<style type="text/css">
+	* {
+		padding: 0;
+		margin: 0;
+	}
+		.header,.asider,.main,.footer {
+			background-color: teal;
+			border: 1px solid yellow;
+			margin-bottom: 10px;
+		}
+		.footer{
+			height: 200px;
+			/*clear: left;*/
+			/*clear: right;*/
+		}
+		.asider {
+			width: 200px;
+			height: 330px;
+			float: left;
+		}
+		.main {
+			float: right;
+			height: 400px;
+			width: 980px;
+		}
+		.header {
+			height: 100px;
+		}
+		.box {
+			clear: both;
+		}
+		/*可以在3和2下放一个div为0 为clear ：left  right然后就可以啦*/
+	</style>
+</head>
+<body>
+<div class="header">1</div>
+<div class="asider">2</div>
+<div class="main">3</div>
+<div class="box"></div>
+<!-- 这是一堵墙 -->
+<div class="footer">4</div>
+</body>
+</html>
