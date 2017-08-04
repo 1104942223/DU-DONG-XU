@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>绝对定位案例</title>
+<style type="text/css">
+	* { padding: 0;
+	margin: 0 }
+	.wrap {
+		width: 400px;
+		height: 400px;
+		margin: 0 auto;
+		background-color: yellow;
+		position: relative;
+		border: 1px solid pink;
+	}
+	.slide_left,.slide_right {
+		height: 30px;
+		width: 20px;
+		border: 1px solid blue;
+		background-color: red;
+	}
+	.slide_left {
+		position: absolute;
+		top: 185px;
+		left: 0;
+	}
+	.slide_right {
+		position: absolute;
+		top:185px;
+		right: 0;
+	}
+</style>
+</head>
+<body>
+<div class="wrap">
+	<div class="slide_left">&lt;</div>
+	<div class="slide_right">&gt;</div>
+</div>
+</body>
+</html>
