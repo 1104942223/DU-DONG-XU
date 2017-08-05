@@ -4,18 +4,23 @@
 	<meta charset="UTF-8">
 	<title>css背景</title>
 	<style>
+	* {
+		padding: 0;
+		margin: 0;
+	}
 	.box {
 		width: 800px;
 		height: 800px;
-		border: 1px solid #000;
+		/*border: 1px solid #000;
 		background-image: url(timg.jpg);
 		background-repeat: no-repeat;
+		background-position:right center; 
+		/*合写*/
+		background: yellow url(timg.jpg) no-repeat 20px 10px;
 	}
-	.wrap {
-		height: 300px;
-		width: 300px;
-		background-color: yellow;
-		b
+	body {
+		background-attachment: scroll;
+		background-image: url(img.png);
 	}
 	</style>
 </head>
