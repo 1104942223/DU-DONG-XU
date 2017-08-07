@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>规避脱标的案例</title>
+	<style>
+	* { padding: 0;margin: 0; }
+	.box1 {
+		width: 300px;
+		height: 300px;
+		border: 1px solid #000;
+		background-color: yellow;
+	}
+	.box2 {
+		width: 30px;
+		height: 30px;
+		border: 1px solid #000;
+		background-color: red;
+		margin-left: auto;
+		margin-right: 0;
+		margin-top: 135px;
+	}
+	.ddx1 {
+		display: inline-block;
+		vertical-align: middle;
+		width: 65px;
+		height: 20px;
+		background: url(box.png) no-repeat;
+		/*margin-top: 50px;*/
+
+	}
+	span {
+		line-height: 20px;
+	}
+	</style>
+</head>
+<body>
+	<div class="box1">
+	<div class="box2"></div>
+	</div>
+	<hr>
+	<div class="ddx">
+		<i class="ddx1"></i>
+		<span class="ddx2">首饰</span>
+	</div>
+</body>
+</html>

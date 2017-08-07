@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>消除inline-block的空隙demo</title>
+	<style>
+	* {
+		padding: 0;
+		margin: 0;
+	}
+	span {
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		border: 1px solid #000;
+		background: yellow;
+		/*font-size: 10px;*/
+			}
+	div {
+		/*font-size: 0; */
+	}
+
+	</style>
+</head>
+<body>
+	<div>
+		<span>one</span><span>two</span><!-- 
+		 --><span>three</span>
+		<span>four</span>
+	</div>
+
+
+
+</body>
+</html>

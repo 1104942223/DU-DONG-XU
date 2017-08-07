@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>margin padding 的挤开盒子案例demo</title>
+	<style>
+	.box1,.box3 {
+		height: 300px;
+		width: 300px;
+		background-color: yellow;
+		border: 1px solid #000;
+		padding: 100px 0 0 100px;
+		overflow: hidden;
+		margin-bottom: 10px;
+	}
+	.box2,.box4 {
+		height: 500px;
+		width: 100px;
+		background-color: red;	}
+
+	.box3 {
+		padding:0;
+	}
+	.box4 {
+		margin: 100px 0 0 100px;
+	}
+	</style>
+</head>
+<body>
+	<div class="box1">
+	<div class="box2"></div>
+	</div>
+	<div class="box3">
+	<div class="box4"></div>
+	</div>
+</body>
+</html>
